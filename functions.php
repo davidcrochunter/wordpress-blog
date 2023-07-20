@@ -21,21 +21,7 @@ function console($log) {
     // check type for the variable $log and conditional process according to the result
     // related function is 'gettype($log)'
 
-    if( is_array($log) ) {
-        // echo 'This is array variable';
-        $log = json_encode($log);
-        $log = str_replace('"', '', $log);
-        echo '<script>console.log("array:'.$log.'");</script>';
-    } else if( is_object($log) ) {
-        // echo 'This is object variable';
-        $log = json_encode($log);
-        $log = str_replace('"', '', $log);
-        echo '<script>console.log("object:'.$log.'");</script>';
-    } else {
-        // echo 'This is String variable';
-        $log = str_replace('"', '', $log);
-        echo '<script>console.log("'.$log.'");</script>';
-    }
+    
 }
 
 add_action( 'after_setup_theme', 'yourtheme_theme_setup' );

@@ -8,21 +8,6 @@
             <h5 class="widget-title">Products</h5>
             <ul class="footer-nav">
               <li>
-                <a href="#">Shared hosting</a>
-              </li>
-              <li>
-                <a href="#">WordPress hosting</a>
-              </li>
-              <li>
-                <a href="#">Vps hosting</a>
-              </li>
-              <li>
-                <a href="#">Dedicated hosting</a>
-              </li>
-              <li>
-                <a href="#">Reseller hosting</a>
-              </li>
-              <li>
                 <a href="#">Hosting features</a>
               </li>
             </ul>

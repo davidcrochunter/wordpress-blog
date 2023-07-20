@@ -5,7 +5,6 @@
 if ( have_posts() ) {
 
     // Breadcrumb 
-    get_template_part( 'template-parts/content/content-archive/breadcrumb-area' );
 
     // Load posts loop.
     while ( have_posts() ) {
